@@ -25,7 +25,7 @@ def check_psw(psw):
   if(check_psw_digit(psw)
             and check_psw_upper(psw)
             and check_psw_lower(psw)
-            and len(psw) >= 6):
+            and len(psw) >= 7):
     print("Valid password")
     return True
   else:
