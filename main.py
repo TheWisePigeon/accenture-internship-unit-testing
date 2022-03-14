@@ -33,9 +33,9 @@ def check_psw(psw):
     return False    
 
 # # New functions: ------------------------------------
-# def check_psw_equal(psw1, psw2):
-#   return psw1 == psw2
+def check_psw_equal(psw1, psw2):
+  return psw1 == psw2
 
-# def check_credentials(email, psw1, psw2):
-#   return check_email(email) and check_psw(psw1) and check_psw_equal(psw1, psw2)
+def check_credentials(email, psw1, psw2):
+  return check_email(email) and check_psw(psw1) and check_psw_equal(psw1, psw2)
 
